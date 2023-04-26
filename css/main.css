@@ -1,0 +1,88 @@
+/*****GLOBAL STYLES*****/
+
+body {
+    background: #E8E8E8;
+}
+
+/*****VISION BOARD STYLES*****/
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrate', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.block {
+    /*border: 1px dashed darkgreen;*/
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+   
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background: #FFFFFF;
+    background-size: cover;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+    background-size: cover;
+}
+
+.highlight {
+    background: #FFF44F;
+    padding: 10px;
+}
+
+p strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.corner {
+    padding-top: 40px;
+}
+
+.bottom-middle {
+    padding-top: 40px;
+}
